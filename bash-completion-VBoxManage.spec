@@ -1,15 +1,15 @@
 #
 Summary:	bash-completion for VBoxManage command
 Name:		bash-completion-VBoxManage
-Version:	5.0.32
+Version:	5.2.22
 Release:	1
 License:	BSD
 Group:		Applications/Shells
 Source0:	https://github.com/gryf/vboxmanage-bash-completion/raw/%{version}/VBoxManage
-# Source0-md5:	be1693611ab91abc62b342ce5f7c6097
+# Source0-md5:	f8da87027105a6c349091ef35660cc47
 URL:		https://github.com/gryf/vboxmanage-bash-completion/
 Requires:	bash-completion
-Requires:	VirtualBox
+Requires:	VirtualBox52
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
